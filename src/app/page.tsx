@@ -114,7 +114,35 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className="w-[300px] h-[300px] rounded-3xl bg-radial from-neutral-700 to-neutral-800 border border-neutral-500"></div>
+      <div className="w-[400px] h-[250px] rounded-3xl bg-radial from-neutral-700 to-neutral-800 border border-neutral-500 flex flex-col items-center justify-center p-4">
+        <h1 className="text-white text-4xl font-poppins mb-6">Tech Stack</h1>
+        <div className="flex items-center justify-center gap-4">
+          <div className="bg-gradient-to-br from-[#808080] to-[#666666] rounded-xl p-3 flex items-center justify-center border-1 border-[#C5C3C3] mb-3">
+            <Image
+              alt="Logo de React"
+              src="/logo_react.png"
+              width={75}
+              height={75}
+            />
+          </div>
+          <div className="bg-gradient-to-br from-[#808080] to-[#666666] rounded-xl p-3 flex items-center justify-center border-1 border-[#C5C3C3] mb-3 h-[101px]">
+            <Image
+              alt="Logo de Tailwind CSS"
+              src="/logo_tailwind_css.png"
+              width={75}
+              height={75}
+            />
+          </div>
+          <div className="bg-gradient-to-br from-[#808080] to-[#666666] rounded-xl p-3 flex items-center justify-center border-1 border-[#C5C3C3] mb-3">
+            <Image
+            alt="Logo de Figma"
+            src="/logo_figma.png"
+            width={75}
+            height={75}
+            />
+          </div>
+        </div>
+      </div>
       <div className="w-[300px] h-[300px] rounded-3xl bg-radial from-neutral-700 to-neutral-800 border border-neutral-500"></div>
     </div>
   );
