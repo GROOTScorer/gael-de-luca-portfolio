@@ -135,15 +135,29 @@ export default function Home() {
           </div>
           <div className="bg-gradient-to-br from-[#808080] to-[#666666] rounded-xl p-3 flex items-center justify-center border-1 border-[#C5C3C3] mb-3">
             <Image
-            alt="Logo de Figma"
-            src="/logo_figma.png"
-            width={75}
-            height={75}
+              alt="Logo de Figma"
+              src="/logo_figma.png"
+              width={75}
+              height={75}
             />
           </div>
         </div>
       </div>
-      <div className="w-[300px] h-[300px] rounded-3xl bg-radial from-neutral-700 to-neutral-800 border border-neutral-500"></div>
+      <div className="w-[400px] h-[250px] rounded-3xl bg-radial from-neutral-700 to-neutral-800 border border-neutral-500 flex flex-col items-center justify-center p-4">
+        <h1 className="text-white text-4xl font-poppins mb-4">Educación</h1>
+        <Image
+          className="mb-2"
+          alt="Logo de la Escuela Técnica N° 35"
+          src="/logo_escuela_tecnica_35.png"
+          width={100}
+          height={100}
+        />
+        <span className="text-white">
+          Escuela Técnica N° 35 Ing. Eduardo Latzina
+        </span>
+        <span className="text-sm">Especialidad en Computación</span>
+        <span className="text-sm">2020 - 2025</span>
+      </div>
     </div>
   );
 }
