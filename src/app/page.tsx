@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="bg-black p-[5%] flex gap-x-[5%] gap-y-8 items-start justify-center flex-wrap min-h-screen">
       <div className="w-[400px] h-[250px] rounded-3xl bg-radial from-neutral-700 to-neutral-800 border border-neutral-500 flex flex-col justify-between p-4">
-        <div className="flex items-start">
+        <div className="flex items-start mb-2">
           <Image
             alt="Foto"
             src="/foto_personal.jpg"
@@ -19,50 +19,68 @@ export default function Home() {
             </h2>
           </div>
         </div>
-        <div className="flex justify-center gap-4 mb-2">
-          <div className="w-[100px]">
-            <a
-              href="https://github.com/GROOTScorer/"
-              className="bg-black rounded-xl p-2 shadow-lg flex items-center justify-center h-[50px]"
-              style={{ boxShadow: "0 4px 6px -1px rgb(64 64 64 / 0.5)" }}
-            >
-              <Image
-                alt="Logo de Github"
-                src="/logo_github.png"
-                width={40}
-                height={40}
-              />
-            </a>
+        <div className="flex flex-col items-center gap-3 mb-2">
+          <div className="flex justify-center gap-4">
+            <div className="w-[175px]">
+              <a
+                href="https://github.com/GROOTScorer/"
+                className="bg-black rounded-xl p-2 shadow-lg flex items-center justify-center h-[50px]"
+                style={{ boxShadow: "0 4px 6px -1px rgb(64 64 64 / 0.5)" }}
+              >
+                <Image
+                  alt="Logo de Github"
+                  src="/logo_github.png"
+                  width={40}
+                  height={40}
+                />
+              </a>
+            </div>
+            <div className="w-[175px]">
+              <a
+                href="https://www.linkedin.com/in/gael-de-luca/"
+                className="rounded-xl p-2 shadow-lg flex items-center justify-center h-[50px]"
+                style={{
+                  backgroundColor: "#0E76A8",
+                  boxShadow: "0 4px 6px -1px rgb(14 118 168 / 0.5)",
+                }}
+              >
+                <Image
+                  alt="Logo de Linkedin"
+                  src="/logo_linkedin.png"
+                  width={40}
+                  height={40}
+                />
+              </a>
+            </div>
           </div>
-          <div className="w-[100px]">
-            <a
-              href="https://www.linkedin.com/in/gael-de-luca/"
-              className="rounded-xl p-2 shadow-lg flex items-center justify-center h-[50px]"
-              style={{
-                backgroundColor: "#0E76A8",
-                boxShadow: "0 4px 6px -1px rgb(14 118 168 / 0.5)",
-              }}
-            >
-              <Image
-                alt="Logo de Linkedin"
-                src="/logo_linkedin.png"
-                width={40}
-                height={40}
-              />
-            </a>
-          </div>
-          <div className="w-[100px]">
-            <a
-              href="mailto:gaeldlk@gmail.com"
-              className="bg-gray-300 rounded-xl p-2 shadow-lg flex items-center justify-center h-[50px]"
-            >
-              <Image
-                alt="Logo de Gmail"
-                src="/logo_gmail.png"
-                width={40}
-                height={40}
-              />
-            </a>
+          <div className="flex justify-center gap-4">
+            <div className="w-[175px]">
+              <a
+                href="mailto:gaeldlk@gmail.com"
+                className="bg-gray-300 rounded-xl p-2 shadow-lg flex items-center justify-center h-[50px]"
+              >
+                <Image
+                  alt="Logo de Gmail"
+                  src="/logo_gmail.png"
+                  width={40}
+                  height={40}
+                />
+              </a>
+            </div>
+            <div className="w-[175px]">
+              <a
+                href="/Gael_De_Luca_CV.pdf"
+                className="bg-neutral-900 rounded-xl p-2 shadow-lg flex items-center justify-center h-[50px]"
+                style={{ boxShadow: "0 4px 6px -1px rgb(64 64 64 / 0.5)" }}
+              >
+                <Image
+                  alt="Currículum Vitae"
+                  src="/logo_cv.png"
+                  width={40}
+                  height={40}
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>
