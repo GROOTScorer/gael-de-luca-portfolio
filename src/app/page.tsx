@@ -24,8 +24,8 @@ export default function Home() {
             <div className="w-[175px]">
               <a
                 href="https://github.com/GROOTScorer/"
-                className="bg-black rounded-xl p-2 shadow-lg flex items-center justify-center h-[50px]"
-                style={{ boxShadow: "0 4px 6px -1px rgb(64 64 64 / 0.5)" }}
+                className="bg-black rounded-xl p-2 shadow-lg flex items-center justify-center h-[50px]
+                          transition-transform duration-200 transform hover:scale-110 hover:shadow-xl"
               >
                 <Image
                   alt="Logo de Github"
@@ -38,11 +38,9 @@ export default function Home() {
             <div className="w-[175px]">
               <a
                 href="https://www.linkedin.com/in/gael-de-luca/"
-                className="rounded-xl p-2 shadow-lg flex items-center justify-center h-[50px]"
-                style={{
-                  backgroundColor: "#0E76A8",
-                  boxShadow: "0 4px 6px -1px rgb(14 118 168 / 0.5)",
-                }}
+                className="rounded-xl p-2 shadow-lg flex items-center justify-center h-[50px]
+                          transition-transform duration-200 transform hover:scale-110 hover:shadow-xl"
+                style={{ backgroundColor: "#0E76A8" }}
               >
                 <Image
                   alt="Logo de Linkedin"
@@ -57,7 +55,8 @@ export default function Home() {
             <div className="w-[175px]">
               <a
                 href="mailto:gaeldlk@gmail.com"
-                className="bg-gray-300 rounded-xl p-2 shadow-lg flex items-center justify-center h-[50px]"
+                className="bg-gray-300 rounded-xl p-2 shadow-lg flex items-center justify-center h-[50px]
+                          transition-transform duration-200 transform hover:scale-110 hover:shadow-xl"
               >
                 <Image
                   alt="Logo de Gmail"
@@ -70,8 +69,8 @@ export default function Home() {
             <div className="w-[175px]">
               <a
                 href="/Gael_De_Luca_CV.pdf"
-                className="bg-neutral-900 rounded-xl p-2 shadow-lg flex items-center justify-center h-[50px]"
-                style={{ boxShadow: "0 4px 6px -1px rgb(64 64 64 / 0.5)" }}
+                className="bg-neutral-900 rounded-xl p-2 shadow-lg flex items-center justify-center h-[50px]
+                          transition-transform duration-200 transform hover:scale-110 hover:shadow-xl"
               >
                 <Image
                   alt="Currículum Vitae"
